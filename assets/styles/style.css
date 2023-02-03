@@ -1,0 +1,24 @@
+/* this is targeting an element by its tag name */
+body {
+  background-color: antiquewhite;
+}
+
+/* this is targeting an element by the class. can target multiple elements at once */
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+}
+
+/* this is targeting an elment by the id. id should be unique to that elemnt.
+ only one lement targeted. should NOT be used with css. this will overwrite 
+ any class if they're targeting the same property */
+#inner-box {
+  width: 20px;
+  height: 20px;
+  border: brown 1px solid;
+}
+
+/* git add . */
+/* git commit -m "your commit message here" */
+/* git push or git push origin main*/
